@@ -1,5 +1,6 @@
 import React from 'react';
 import facial2 from '../../assets/facial2.png'
+import { Link } from 'react-router-dom';
 
 function Reg() {
   return (
@@ -76,6 +77,12 @@ function Reg() {
                   Privacy Policy
                 </a>
               </span>
+              <div className='text-sm'>
+              <Link 
+        to="/Login">
+        Or Do You have an account ?you can Login
+        </Link>
+              </div>
             </div>
           
           <button

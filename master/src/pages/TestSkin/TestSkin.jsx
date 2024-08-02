@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 function TestSkin() {
   return (
     <div>
-  <div className="flex">
+  <div className="flex ">
     <div className="flex-1 w-64">
       <p className='d' >
         Want to improve your skincare routine? Find out your skin type first with our personalized skin test!
@@ -26,7 +26,7 @@ function TestSkin() {
   
   <Link
   to="/Test"
-  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+  className="w-[10%] border border-gray-300 text-md p-3 rounded-lg -ml-4 bg-greenRoot hover:text-white mt-3"
 >
     Start Test
     </Link>

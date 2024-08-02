@@ -8,7 +8,7 @@ function Checkout() {
       <section className="bg-white py-8 antialiased dark:bg-gray-900 md:py-16">
   <form
     action="#"
-    className="mx-auto max-w-screen-xl px-4 2xl:px-0"
+    className="mx-44 max-w-screen-xl px-4 2xl:px-0"
   >
     <ol className="items-center flex w-full max-w-2xl text-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:text-base">
       <li className="after:border-1 flex items-center text-greenRoot  after:mx-6 after:hidden after:h-1 after:w-full after:border-b after:border-gray-200 dark:text-primary-500 dark:after:border-gray-700 sm:after:inline-block sm:after:content-[''] md:w-full xl:after:mx-10">
@@ -86,7 +86,7 @@ function Checkout() {
       <div className="min-w-0 flex-1 space-y-8">
         <div className="space-y-4">
           <h2 className="text-xl font-semibold text-gray-900 dark:text-white">
-            Delivery Details
+            Checkout Details
           </h2>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div>
@@ -1124,76 +1124,21 @@ function Checkout() {
               className="flex items-center justify-center rounded-lg bg-greenRoot  px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-greenRoot  dark:focus:ring-primary-800"
               type="button"
             >
+               
               Apply
             </button>
-          </div>
+          </div><Link to="/OrderRev" className="flex font-bold text-indigo-600 text-lg mt-10" href="#">
+                      
+
+                     Confirm Your Order
+                      <svg className="fill-current ml-2 text-indigo-600 w-4" viewBox="0 0 448 512">
+<path d="M313.941 296H12c-6.627 0-12-5.373-12-12v-56c0-6.627 5.373-12 12-12h301.941V169.941c0-21.382 25.851-32.09 40.971-16.971L440.971 239.029c9.373 9.373 9.373 24.569 0 33.941l-86.059 86.059c-15.119 15.119-40.971 4.411-40.971-16.971V296z" />
+</svg>
+                  </Link>
         </div>
+        
       </div>
-      <div className="mt-6 w-full space-y-6 sm:mt-8 lg:mt-0 lg:max-w-xs xl:max-w-md">
-        <div className="flow-root">
-          <div className="-my-3 divide-y divide-gray-200 dark:divide-gray-800">
-            <dl className="flex items-center justify-between gap-4 py-3">
-              <dt className="text-base font-normal text-gray-500 dark:text-gray-400">
-                Subtotal
-              </dt>
-              <dd className="text-base font-medium text-gray-900 dark:text-white">
-                $8,094.00
-              </dd>
-            </dl>
-            <dl className="flex items-center justify-between gap-4 py-3">
-              <dt className="text-base font-normal text-gray-500 dark:text-gray-400">
-                Savings
-              </dt>
-              <dd className="text-base font-medium text-green-500">
-                0
-              </dd>
-            </dl>
-            <dl className="flex items-center justify-between gap-4 py-3">
-              <dt className="text-base font-normal text-gray-500 dark:text-gray-400">
-                Store Pickup
-              </dt>
-              <dd className="text-base font-medium text-gray-900 dark:text-white">
-                $99
-              </dd>
-            </dl>
-            <dl className="flex items-center justify-between gap-4 py-3">
-              <dt className="text-base font-normal text-gray-500 dark:text-gray-400">
-                Tax
-              </dt>
-              <dd className="text-base font-medium text-gray-900 dark:text-white">
-                $199
-              </dd>
-            </dl>
-            <dl className="flex items-center justify-between gap-4 py-3">
-              <dt className="text-base font-bold text-gray-900 dark:text-white">
-                Total
-              </dt>
-              <dd className="text-base font-bold text-gray-900 dark:text-white">
-                $8,392.00
-              </dd>
-            </dl>
-          </div>
-        </div>
-        <div className="space-y-3">
-          <button
-            className="flex w-full items-center justify-center rounded-lg bg-greenRoot  px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-greenRoot  dark:focus:ring-primary-800"
-            type="submit"
-          >
-            Proceed to Payment
-          </button>
-          <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
-            One or more items in your cart require an account.{' '}
-            <a
-              className="font-medium text-greenRoot  underline hover:no-underline dark:text-primary-500"
-              href="#"
-              title=""
-            >
-              Sign in or create an account now.
-            </a>
-            .
-          </p>
-        </div>
-      </div>
+     
     </div>
   </form>
 </section>

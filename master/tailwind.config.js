@@ -14,7 +14,9 @@ export default {
     backgroundImage: {
       'products': "url('/master/src/assets/tree.jpg')",
       'consult':"url('/master/src/assets/consult.jpg')"
-    }
+    },fontFamily: {
+      'irish': ['Irish Grover', 'sans-serif'],
+    },
   },
   plugins: [],
 }

@@ -198,7 +198,7 @@ function Test() {
                  <button
                   type="button"
                   onClick={handlePrev}
-                  className="bg-grayRoot hover:bg-gray-400 text-gray-800 font-bold me-7 mb-4 py-2 px-10 rounded-l"
+                  className="bg-grayRoot hover:bg-gray-400 text-gray-800 font-bold me-7 mb-4 py-2 px-10 rounded-l hidden"
                 >
                   Prev
                 </button>
@@ -213,7 +213,7 @@ function Test() {
               )}
                {currentStep === questions.length - 1 && (
             <button  type="button"   className="bg-grayRoot hover:bg-gray-400 text-gray-800 font-bold mb-4 py-2 px-10 rounded-r">
-              <Link to="./TestSkin">Go to About Page</Link>
+              <Link to="/Pop">Finish</Link>
             </button>
               
               )}
